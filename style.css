@@ -1,0 +1,114 @@
+body {   background-color: hsl(225, 100%, 94%);
+         min-height: 100dvh; /* better than 100vh on mobile */
+         background-image: url('pattern-background-desktop.svg');
+         background-size: cover;
+         background-position: top center;
+         background-repeat: no-repeat;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin: 0;
+         padding: 0;
+         background-size: 100% 50vh;}
+
+.container {background-color:hsl(0, 0%, 100%) ; /* Box background color */
+             width: 400px; /* The size you want the box to be */
+             border-radius: 20px; /* Optional; for rounded edges */
+             display: flex;
+             flex-direction: column;
+             padding: 0%;
+             height: 545px; 
+             overflow: hidden;
+             text-align: center;
+             font-family:'Red Hat Display', sans-serif;}
+
+.container .first-picture {background-image: url('illustration-hero.svg');
+                           background-repeat: no-repeat;
+                           background-size: cover;
+                           background-position: center;
+                           width: 100%;
+                           height: 170px;}
+
+.container .order-summary {font-size: 24px;
+                           font-weight: 900;
+                           margin-top: 30px;
+                           color: hsl(223, 47%, 23%);}
+
+.container .you-can {font-size: 16px;
+                     font-weight: 510;
+                     color: hsl(224, 23%, 55%);}
+
+.container .second-container {
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 73%;
+  height: 80px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 0 15px;
+}
+
+.container .second-container-items {
+  display: flex;
+  align-items: center;
+  width: auto;
+}
+
+.container .second-container-items img {
+  margin-right: 15px;
+  width: 40px;
+  height: 40px;
+}
+
+.container .container-two-words {
+  text-align: left;
+  }
+
+.container .container-two-words strong {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+
+.container .container-two-words span {
+  color: hsl(224, 23%, 55%);
+}
+
+.container .second-container a {
+  color: hsl(238, 50%, 50%);
+  font-weight: 800;
+  text-align: right;
+}
+
+.container .second-container a:hover {
+  color: hsl(223, 47%, 23%);
+  text-decoration: none;
+}
+
+.container .proceed {margin-top: 25px;
+                     width: 77%;
+                     height: 40px;
+                     background-color: hsl(245, 75%, 52%);
+                     border-radius: 10px;
+                     align-self: center;
+                     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
+                     line-height: 40px;
+                     text-align: center;
+                     color: white;
+                     font-size: 0.8rem;
+                     font-weight: 700;
+                     cursor: pointer;}
+
+.container .proceed:hover {background-color:hsl(245, 83%, 68%);}
+
+.container .cancel {margin-top: 20px;
+                    font-size: 0.8rem;
+                    font-weight: 900;
+                    cursor: pointer;
+                    color: hsl(224, 23%, 55%);}
+
+.container .cancel:hover {color: black;}
+
