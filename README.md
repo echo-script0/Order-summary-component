@@ -14,7 +14,7 @@ This is a solution to the [Order Summary component challenge on Frontend Mentor]
 ![Preview](image.png)
 
 ### Live site
-https://echo-script0.github.io/Product-preview-card-component/
+ https://echo-script0.github.io/Order-summary-component/
 
 ### Built with
 
